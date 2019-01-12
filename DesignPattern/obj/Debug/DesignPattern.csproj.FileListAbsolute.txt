@@ -1,0 +1,7 @@
+c:\users\jay\source\repos\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe.config
+c:\users\jay\source\repos\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe
+c:\users\jay\source\repos\DesignPattern\DesignPattern\bin\Debug\DesignPattern.pdb
+c:\users\jay\source\repos\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csprojResolveAssemblyReference.cache
+c:\users\jay\source\repos\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csproj.CoreCompileInputs.cache
+c:\users\jay\source\repos\DesignPattern\DesignPattern\obj\Debug\DesignPattern.exe
+c:\users\jay\source\repos\DesignPattern\DesignPattern\obj\Debug\DesignPattern.pdb
