@@ -35,18 +35,28 @@ namespace DesignPattern
             //Singleton2 singleton2 = Singleton2.GetSingleton();
             //singleton2.SingletonTest();
             //===========================================================
-            MealBuilder mealBuilder = new MealBuilder();
-
-            Meal vegMeal = mealBuilder.PrepareVegMeal();
-            Console.WriteLine("Veg Meal");
-            vegMeal.ShowItems();
-            Console.WriteLine($"Total Cost:{vegMeal.GetCost()}");
-            Console.WriteLine("");
-            Console.WriteLine("");
-            Meal nonVegMeal = mealBuilder.PrepareNonVegMeal();
-            Console.WriteLine("Non-Veg Meal");
-            nonVegMeal.ShowItems();
-            Console.WriteLine($"Total Cost:{nonVegMeal.GetCost()}");
+            //MealBuilder mealBuilder = new MealBuilder();
+            //Meal vegMeal = mealBuilder.PrepareVegMeal();
+            //Console.WriteLine("Veg Meal");
+            //vegMeal.ShowItems();
+            //Console.WriteLine($"Total Cost:{vegMeal.GetCost()}");
+            //Console.WriteLine("");
+            //Console.WriteLine("");
+            //Meal nonVegMeal = mealBuilder.PrepareNonVegMeal();
+            //Console.WriteLine("Non-Veg Meal");
+            //nonVegMeal.ShowItems();
+            //Console.WriteLine($"Total Cost:{nonVegMeal.GetCost()}");
+            //===========================================================
+            PrototypePattern.ShapeCache.LoadCache();
+            PrototypePattern.Shape CloneShape1 = PrototypePattern.ShapeCache.GetShape(1);
+            PrototypePattern.Shape CloneShape2 = PrototypePattern.ShapeCache.GetShape(2);
+            PrototypePattern.Shape CloneShape3 = PrototypePattern.ShapeCache.GetShape(3);
+            CloneShape1.Draw();
+            CloneShape2.Draw();
+            CloneShape3.Draw();
+            //===========================================================
+            //===========================================================
+            //===========================================================
             Console.Read();
         }
     }

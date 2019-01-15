@@ -71,6 +71,11 @@
     <Compile Include="FactoryPattern\Shape\Square.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrototypePattern\Circle.cs" />
+    <Compile Include="PrototypePattern\Rectangle.cs" />
+    <Compile Include="PrototypePattern\Shape.cs" />
+    <Compile Include="PrototypePattern\ShapeCache.cs" />
+    <Compile Include="PrototypePattern\Square.cs" />
     <Compile Include="SingletonPattern\Singleton.cs" />
     <Compile Include="SingletonPattern\Singleton2.cs" />
   </ItemGroup>

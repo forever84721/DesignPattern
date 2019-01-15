@@ -4,11 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern.FactoryPattern.Shape
+namespace DesignPattern.PrototypePattern
 {
-    public class Circle : IShape
+    public class Circle : Shape
     {
-        public void Draw()
+        public Circle()
+        {
+            ShapeType = ShapeType.Circle;
+        }
+        public override void Draw()
         {
             Console.WriteLine("Inside Circle::Draw() method.");
         }
