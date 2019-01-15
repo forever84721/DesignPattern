@@ -1,4 +1,5 @@
-﻿using DesignPattern.BuilderPattern.Meal;
+﻿using DesignPattern.AdapterPattern;
+using DesignPattern.BuilderPattern.Meal;
 using DesignPattern.FactoryPattern.Color;
 using DesignPattern.FactoryPattern.Factory;
 using DesignPattern.FactoryPattern.Shape;
@@ -47,13 +48,19 @@ namespace DesignPattern
             //nonVegMeal.ShowItems();
             //Console.WriteLine($"Total Cost:{nonVegMeal.GetCost()}");
             //===========================================================
-            PrototypePattern.ShapeCache.LoadCache();
-            PrototypePattern.Shape CloneShape1 = PrototypePattern.ShapeCache.GetShape(1);
-            PrototypePattern.Shape CloneShape2 = PrototypePattern.ShapeCache.GetShape(2);
-            PrototypePattern.Shape CloneShape3 = PrototypePattern.ShapeCache.GetShape(3);
-            CloneShape1.Draw();
-            CloneShape2.Draw();
-            CloneShape3.Draw();
+            //PrototypePattern.ShapeCache.LoadCache();
+            //PrototypePattern.Shape CloneShape1 = PrototypePattern.ShapeCache.GetShape(1);
+            //PrototypePattern.Shape CloneShape2 = PrototypePattern.ShapeCache.GetShape(2);
+            //PrototypePattern.Shape CloneShape3 = PrototypePattern.ShapeCache.GetShape(3);
+            //CloneShape1.Draw();
+            //CloneShape2.Draw();
+            //CloneShape3.Draw();
+            //===========================================================
+            AudioPlayer audioPlayer = new AudioPlayer();
+            audioPlayer.Play("mp3", "beyond the horizon.mp3");
+            audioPlayer.Play("mp4", "alone.mp4");
+            audioPlayer.Play("vlc", "far far away.vlc");
+            audioPlayer.Play("avi", "mind me.avi");
             //===========================================================
             //===========================================================
             //===========================================================

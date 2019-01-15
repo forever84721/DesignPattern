@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdapterPattern\AudioPlayer.cs" />
+    <Compile Include="AdapterPattern\IAdvancedMediaPlayer.cs" />
+    <Compile Include="AdapterPattern\IMediaPlayer.cs" />
+    <Compile Include="AdapterPattern\MediaAdapter.cs" />
+    <Compile Include="AdapterPattern\Mp4Player.cs" />
+    <Compile Include="AdapterPattern\VlcPlayer.cs" />
     <Compile Include="BuilderPattern\Item\Burger.cs" />
     <Compile Include="BuilderPattern\Item\ChickenBurger.cs" />
     <Compile Include="BuilderPattern\Item\Coke.cs" />
